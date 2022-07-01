@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-01T03:02:16.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="VgjWr41djJKNt3nDYxOj" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-01T03:05:57.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="fYcCeskexFBhigGBLLmg" version="20.0.4" type="github">
   <diagram id="oFQ-JHp76jdHn1Qx9h-n" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -6,6 +6,9 @@
         <mxCell id="1" parent="0" />
         <mxCell id="0_v1SrCNL-J_Jo2aVob1-1" value="主分支 master" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0_v1SrCNL-J_Jo2aVob1-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0_v1SrCNL-J_Jo2aVob1-2" target="0_v1SrCNL-J_Jo2aVob1-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0_v1SrCNL-J_Jo2aVob1-2" value="开发分支 dev" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="320" width="120" height="80" as="geometry" />
@@ -15,9 +18,6 @@
         </mxCell>
         <mxCell id="0_v1SrCNL-J_Jo2aVob1-5" value="功能1 分支b1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="200" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="0_v1SrCNL-J_Jo2aVob1-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0_v1SrCNL-J_Jo2aVob1-6" target="0_v1SrCNL-J_Jo2aVob1-25">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0_v1SrCNL-J_Jo2aVob1-6" value="功能3 分支b3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="480" width="120" height="80" as="geometry" />
@@ -44,7 +44,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0_v1SrCNL-J_Jo2aVob1-12" value="功能2 分支b2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="400" width="120" height="80" as="geometry" />
+          <mxGeometry x="520" y="440" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0_v1SrCNL-J_Jo2aVob1-14" value="开发测试完成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="200" width="110" height="80" as="geometry" />
@@ -69,12 +69,14 @@
             <mxPoint x="180" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0_v1SrCNL-J_Jo2aVob1-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="0_v1SrCNL-J_Jo2aVob1-12">
+        <mxCell id="0_v1SrCNL-J_Jo2aVob1-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0_v1SrCNL-J_Jo2aVob1-2" target="0_v1SrCNL-J_Jo2aVob1-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="360" as="sourcePoint" />
             <mxPoint x="490" y="310" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="580" y="360" />
+              <mxPoint x="440" y="400" />
+              <mxPoint x="440" y="480" />
+              <mxPoint x="480" y="480" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -88,7 +90,19 @@
           <mxGeometry x="520" y="560" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0_v1SrCNL-J_Jo2aVob1-27" value="继续开发测试" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="400" width="120" height="80" as="geometry" />
+          <mxGeometry x="720" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0_v1SrCNL-J_Jo2aVob1-29" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0_v1SrCNL-J_Jo2aVob1-6" target="0_v1SrCNL-J_Jo2aVob1-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="650" as="sourcePoint" />
+            <mxPoint x="460" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_v1SrCNL-J_Jo2aVob1-30" value="公用分支 common" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="330" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
